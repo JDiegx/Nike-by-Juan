@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    background-color: rgb(245, 245, 245);
+    overflow-x: hidden;
+    /* Evitar el scroll horizontal */
+}
+
+.logheader {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logheader img {
+    width: 35px;
+    height: auto;
+}
+
+.logheader #uno {
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logheader #dos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    padding: 25px;
+    margin-left: 20px;
+    transition: filter 0.3s ease;
+}
+
+.navbar-brand:hover {
+    filter: brightness(120%) sepia(100%) hue-rotate(90deg);
+}
+
+.navbar-nav {
+    text-align: center;
+    float: left;
+    margin-left: 30%;
+    margin-right: 50%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.d-flex {
+    margin-right: 80px;
+}
+
+.iconsearch {
+    float: right;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.iconsearch .uno {
+    padding: 2px;
+    margin-left: 40px;
+}
+
+.iconsearch .dos {
+    padding: 2px;
+    margin-left: 10px;
+    font-size: 21px;
+}
+
+.header1 {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+
+.bannerheader2 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.bannerheader2 img {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cuerpo {
+    width: 100%;
+    height: auto;
+    margin: 30px;
+}
+
+.cuerpo .title1 h1 {
+    font-size: 40px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.target {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cuerpo .bodyimguno {
+    background-color: rgb(231, 231, 231);
+    width: 440px;
+    height: 400px;
+    margin: 30px 35px 35px 55px;
+    border-radius: 25px;
+    float: left;
+}
+
+.bodyimguno .textouno {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    float: left;
+}
+
+.bodyimguno img {
+    border-radius: 25px;
+}
+
+.bodyimgdos {
+    background-color: rgb(231, 231, 231);
+    width: 440px;
+    height: 400px;
+    margin: 30px 35px 35px 20px;
+    border-radius: 25px;
+    float: left;
+}
+
+.bodyimgdos .textodos {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+.bodyimgdos img {
+    border-radius: 25px;
+}
+
+.bodyimgtres {
+    background-color: rgb(231, 231, 231);
+    width: 440px;
+    height: 400px;
+    margin: 30px 35px 35px 20px;
+    border-radius: 25px;
+    float: left;
+}
+
+.bodyimgtres .textotres {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+.bodyimgtres img {
+    border-radius: 25px;
+}
+
+.bodyimgcuatro {
+    background-color: rgb(231, 231, 231);
+    width: 440px;
+    height: 400px;
+    margin: 30px 55px 35px 20px;
+    border-radius: 25px;
+    float: left;
+}
+
+.bodyimgcuatro .textocuatro {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+.bodyimgcuatro img {
+    border-radius: 25px;
+}
+
+.sectiontres {
+    margin-top: 100px;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.sectiontres .title h1 {
+    font-size: 40px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.sectiontres .bannertres img {
+    width: 100%;
+    padding: 40px;
+}
+
+.sectiontres .Message p {
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sectiontres .description p {
+    text-align: center;
+    font-family: 'Open Sauce One', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sectiontres .insignia {
+    text-align: center;
+    margin-right: 15px;
+    color: black;
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.section4 {
+    margin-top: 100px;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.imgcontainer1,
+.imgcontainer2,
+.imgcontainer3 {
+    margin-left: 60px;
+    float: left;
+}
+
+.imgcontainer1 p,
+.imgcontainer2 p,
+.imgcontainer3 p {
+    font-size: 25px;
+    margin: 12px;
+    font-family: 'Open Sauce One', sans-serif;
+    font-weight: bold;
+}
+
+.section5 {
+    margin-top: 90px;
+    margin-bottom: 130px;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.titulo5 h1 {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.img1container5,
+.img2container5,
+.img3container5 {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.img1container5 p,
+.img2container5 p,
+.img3container5 p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.section5 .description {
+    color: rgb(170, 170, 170);
+}
+
+.banner4 {
+    float: none;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.banner4 img {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    float: left;
+}
+
+.section6 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.tittled6 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 110px;
+}
+
+.section6 p {
+    font-family: 'Open Sauce One', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.insigniad6 {
+    font-size: 25px;
+    margin-bottom: 70px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.insigniad6 a:hover {
+    background-color: white;
+}
+
+.titulo6 h1 {
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.imgds6 {
+    margin-top: 20px;
+    float: left;
+}
+
+.imgds6 .img2container5 {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.imgds6 .img2container5 p,
+.imgds6 .img2container5 a {
+    font-size: 25px;
+}
+
+.GiftsbyPrice {
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+
+.GiftsbyPrice h2 {
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.TrendingGifts {
+    width: 100%;
+    margin-top: 70px;
+    float: left;
+}
+
+.TrendingGifts h2 {
+    text-align: left;
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.TrendingGifts p {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.TrendingGifts a,
+.aspan {
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-align: left;
+    float: left;
+    margin: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    float: left;
+}
